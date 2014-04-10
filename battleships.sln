@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Projects\Client\Client.vcxproj", "{EE246CCE-C9E9-4B65-ABBC-8301253A86F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE} = {CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}
+		{ADA9FCEB-1806-406F-BB69-87F0B5AEA280} = {ADA9FCEB-1806-406F-BB69-87F0B5AEA280}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLogic", "Projects\GameLogic\GameLogic.vcxproj", "{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Projects\Server\Server.vcxproj", "{ADA9FCEB-1806-406F-BB69-87F0B5AEA280}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE} = {CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE246CCE-C9E9-4B65-ABBC-8301253A86F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE246CCE-C9E9-4B65-ABBC-8301253A86F4}.Debug|Win32.Build.0 = Debug|Win32
+		{EE246CCE-C9E9-4B65-ABBC-8301253A86F4}.Release|Win32.ActiveCfg = Release|Win32
+		{EE246CCE-C9E9-4B65-ABBC-8301253A86F4}.Release|Win32.Build.0 = Release|Win32
+		{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}.Debug|Win32.Build.0 = Debug|Win32
+		{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}.Release|Win32.ActiveCfg = Release|Win32
+		{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}.Release|Win32.Build.0 = Release|Win32
+		{ADA9FCEB-1806-406F-BB69-87F0B5AEA280}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADA9FCEB-1806-406F-BB69-87F0B5AEA280}.Debug|Win32.Build.0 = Debug|Win32
+		{ADA9FCEB-1806-406F-BB69-87F0B5AEA280}.Release|Win32.ActiveCfg = Release|Win32
+		{ADA9FCEB-1806-406F-BB69-87F0B5AEA280}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

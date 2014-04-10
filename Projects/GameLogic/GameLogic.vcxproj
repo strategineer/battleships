@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE656356-FDA2-47D6-AAD7-4717CF5BB9BE}</ProjectGuid>
+    <RootNamespace>GameLogic</RootNamespace>
+    <ProjectName>GameLogic</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="ClientServerMessages.h" />
+    <ClInclude Include="CommandResult.h" />
+    <ClInclude Include="IMineHandler.h" />
+    <ClInclude Include="JSON.h" />
+    <ClInclude Include="JSONArray.h" />
+    <ClInclude Include="JSONElement.h" />
+    <ClInclude Include="JSONObject.h" />
+    <ClInclude Include="JSONString.h" />
+    <ClInclude Include="KamikazeBoat.h" />
+    <ClInclude Include="MineDropper.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Serializable.h" />
+    <ClInclude Include="Cannon.h" />
+    <ClInclude Include="CanonShell.h" />
+    <ClInclude Include="Explosive.h" />
+    <ClInclude Include="FiredTorpedo.h" />
+    <ClInclude Include="ICollidable.h" />
+    <ClInclude Include="ICollisionDetector.h" />
+    <ClInclude Include="Mine.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="Directions.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Radar.h" />
+    <ClInclude Include="RadarBoat.h" />
+    <ClInclude Include="Reef.h" />
+    <ClInclude Include="RgbColor.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ReefGenerator.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Torpedo.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="utilities.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommandResult.cpp" />
+    <ClCompile Include="IMineHandler.cpp" />
+    <ClCompile Include="JSONArray.cpp" />
+    <ClCompile Include="JSONElement.cpp" />
+    <ClCompile Include="JSONObject.cpp" />
+    <ClCompile Include="JSONString.cpp" />
+    <ClCompile Include="KamikazeBoat.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MineDropper.cpp" />
+    <ClCompile Include="Serializable.cpp" />
+    <ClCompile Include="Cannon.cpp" />
+    <ClCompile Include="CannonShell.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Directions.cpp" />
+    <ClCompile Include="Explosive.cpp" />
+    <ClCompile Include="FiredTorpedo.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="ICollidable.cpp" />
+    <ClCompile Include="ICollisionDetector.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="Radar.cpp" />
+    <ClCompile Include="RadarBoat.cpp" />
+    <ClCompile Include="Reef.cpp" />
+    <ClCompile Include="ReefGenerator.cpp" />
+    <ClCompile Include="RgbColor.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Torpedo.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="utilities.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameLogic.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

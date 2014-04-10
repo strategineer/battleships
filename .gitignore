@@ -1,0 +1,36 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Intellisense
+*.sdf
+
+# temp files
+*~
+.out
+*.opensdf
+*.ipch
+*/Debug/
+*/Release/
+
+*.obj
+*.exe
+*.ilk
+*.pdb
+src/battleships.v12.suo
+src/Projects/Client/Debug/
+src/Projects/Server/Debug/
+src/Projects/GameLogic/Debug/
+
+#for test output files
+*.test
