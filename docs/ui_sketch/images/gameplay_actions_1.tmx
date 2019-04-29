@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="25" tileheight="25">
+ <tileset firstgid="1" name="World" tilewidth="25" tileheight="25">
+  <image source="../world/sheet.png" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="5" name="Player1" tilewidth="25" tileheight="25">
+  <image source="../player1/sheet.png" width="50" height="75"/>
+ </tileset>
+ <tileset firstgid="11" name="Player2" tilewidth="25" tileheight="25">
+  <image source="../player2/sheet.png" width="50" height="75"/>
+ </tileset>
+ <tileset firstgid="17" name="Actions" tilewidth="25" tileheight="25">
+  <image source="../action/sheet.png" width="100" height="125"/>
+ </tileset>
+ <tileset firstgid="37" name="Highlight" tilewidth="25" tileheight="25">
+  <image source="../highlight/sheet.png" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="41" name="Status" tilewidth="25" tileheight="25">
+  <image source="../status/sheet.png" width="75" height="100"/>
+ </tileset>
+ <tileset firstgid="53" name="Weapon" tilewidth="25" tileheight="25">
+  <image source="../weapon/sheet.png" width="75" height="75"/>
+ </tileset>
+ <layer name="Ocean" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+  </data>
+ </layer>
+ <layer name="Fog" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk1EKACAIQwXvf+cuUEzJoZmDfSW9NklFRJONZJ2/PWdzs/JG76Ur93UjMXq2aP7RX9zxvkd216d7PVwkBteiTnkz9xvJHfcxkmeexfW+sWLe6l4HUQck
+  </data>
+ </layer>
+ <layer name="Ships" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZgBMJcwywW4gFhNw6lPwyCoYHGM1Ho2AUYALOQWwvNw3s5cIhzgvE/FCMy15alyG08O9gtncUjIKhAEjN90OxrTHUAAC84wFn
+  </data>
+ </layer>
+ <layer name="Weapons" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAAAIBLEXhn9deCAkDLQKbrmEqboOAFZ5GgD4pgEsCwB5
+  </data>
+ </layer>
+ <layer name="Highlight" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAdYaBAepomF72EXIHMW5So8B+evkX2d6BAANl7ygY/ECNgbw8RKmd2Nj0spvedg5FoEoiHrV3aNtLqjy17B1p4Tzc7R0FIwuMpi/qAwB7DhSR
+  </data>
+ </layer>
+ <layer name="Status" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Apwr88JOwh4WkVNAEAuDffAQCqBRMHAC8=
+  </data>
+ </layer>
+ <layer name="Actions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ATiA+0AMoH0QDtgFOAFskAsRWc7BbGI0St9SwKxGJ3soiaQH2gHjIJhD5QH2gE4gNxAOwALEBloB4yCUTAK6ApAbRRQvpcgUR+p6ociAAA4cQGQ
+  </data>
+ </layer>
+</map>

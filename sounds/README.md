@@ -1,0 +1,43 @@
+Sounds
+======
+.bfxrsound files can be opened with bfxr (http://www.bfxr.net/)
+- UI
+    - Menu Option Selected
+    -  Player Turn
+    - Other Player Turn
+    - Message!
+    - Win Theme
+    - Lose Theme
+- Radar
+    - Enemy Ship Warning
+    - Mine Warning
+- Ships
+    - Movement
+        - Forward
+        - Backward
+        - Turn
+        - Shift
+    - Collision
+     - Repair
+     - Death
+- Weapons
+    - Cannon
+        - Launch
+        - Travel
+        - Shot
+            - Light Cannon
+            - Heavy Cannon
+        - Hit
+            - Water
+            - Ship
+            - Reef
+            - Base
+    - Torpedo
+        - Launch
+        - Travel
+        - Explosion
+        - Miss/Sink
+    - Mine
+        - Lay
+        - Pickup
+        - Explosion

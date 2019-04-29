@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="25" tileheight="25">
+ <tileset firstgid="1" name="World" tilewidth="25" tileheight="25">
+  <image source="../world/sheet.png" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="5" name="Player1" tilewidth="25" tileheight="25">
+  <image source="../player1/sheet.png" width="50" height="75"/>
+ </tileset>
+ <tileset firstgid="11" name="Player2" tilewidth="25" tileheight="25">
+  <image source="../player2/sheet.png" width="50" height="75"/>
+ </tileset>
+ <tileset firstgid="17" name="Actions" tilewidth="25" tileheight="25">
+  <image source="../action/sheet.png" width="100" height="125"/>
+ </tileset>
+ <tileset firstgid="37" name="Highlight" tilewidth="25" tileheight="25">
+  <image source="../highlight/sheet.png" width="25" height="50"/>
+ </tileset>
+ <tileset firstgid="39" name="Status" tilewidth="25" tileheight="25">
+  <image source="../status/sheet.png" width="75" height="100"/>
+ </tileset>
+ <tileset firstgid="51" name="Weapon" tilewidth="25" tileheight="25">
+  <image source="../weapon/sheet.png" width="75" height="75"/>
+ </tileset>
+ <layer name="Ocean" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+  </data>
+ </layer>
+ <layer name="Ships" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw1wQjEHlM9LZXORzR7JgG2A7OUcIHuHA2AdADu5sdjLyUD7/ITNXnoASu0lN2yGqn/pYS8109hQ8O9wsXcwg5FW/43Wu9QDg7ktia39zA/FowA/AADBEAHj
+  </data>
+ </layer>
+ <layer name="Status" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAr0BsldngOwdBdQF2gyIuNQcSIcMMqCOBY+CUTAKRsEoGAWjYPACACTKAZ4=
+  </data>
+ </layer>
+ <layer name="Fog" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztks0KACAIgwXf/507BR0kFi1H5WB4ET//3My8HDrSydozKZgsLsL2Id5811+4SJ0sLirG/laZbK5q3ox/Q/LZsxa3uGjOLVxWby9xXcTM3mkkBbNzT/S0I9Ut1D+CugEnBAgF
+  </data>
+ </layer>
+ <layer name="Coral" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEOACAIA8Cm/3+0kwvRzbQEe4tshQQBIvzYKNfViwoxf8YTXmplbrxB9Nnj2kOnWzbN5H/769648zf1PWF51bkR1QJKbwAx
+  </data>
+ </layer>
+</map>

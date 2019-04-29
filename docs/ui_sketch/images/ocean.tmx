@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="25" tileheight="25">
+ <tileset firstgid="1" name="World" tilewidth="25" tileheight="25">
+  <image source="../world/sheet.png" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="5" name="Player1" tilewidth="25" tileheight="25">
+  <image source="../player1/sheet.png" width="50" height="75"/>
+ </tileset>
+ <tileset firstgid="11" name="Player2" tilewidth="25" tileheight="25">
+  <image source="../player2/sheet.png" width="50" height="75"/>
+ </tileset>
+ <tileset firstgid="17" name="Actions" tilewidth="25" tileheight="25">
+  <image source="../action/sheet.png" width="100" height="125"/>
+ </tileset>
+ <tileset firstgid="37" name="Highlight" tilewidth="25" tileheight="25">
+  <image source="../highlight/sheet.png" width="25" height="50"/>
+ </tileset>
+ <tileset firstgid="39" name="Status" tilewidth="25" tileheight="25">
+  <image source="../status/sheet.png" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="43" name="Weapon" tilewidth="25" tileheight="25">
+  <image source="../weapon/sheet.png" width="75" height="75"/>
+ </tileset>
+ <layer name="Ocean" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+  </data>
+ </layer>
+</map>
